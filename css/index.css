@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 40px;
+    background-color: #ADCFFA;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+.wrap{
+    margin: 0 -15px;
+}
+h1{
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+h3{
+     margin: 20px 0;
+     font-size: 20px;
+}
+h4{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.unit{
+    display: inline-block;
+    vertical-align: top;
+    width: 29%;
+    text-align: center;
+    font-size: 0;
+    margin: 0 15px;
+    background-color: #fff;
+}
+.first:hover{
+    outline: 2px solid #03B396;
+}
+.first ul{
+    margin-bottom: 92px;
+}
+.second:hover{
+    outline: 2px solid #1359FC;
+}
+.third:hover{
+    outline: 2px solid #53148E;
+}
+.second ul{
+    margin-bottom: 56px;
+}
+ul{
+    margin: 0 0 20px 0;
+    text-align: left;
+    list-style: none;
+}
+li{
+    margin-bottom: 20px;
+}
+li, p{
+    font-size: 16px;
+}
+p{
+    margin-bottom: 20px;
+}
+.prise{
+    padding: 25px 0;
+    font-size: 40px;
+    color: #fff;
+}
+.prise span{
+    font-size: 15px;
+}
+.first .prise, .first-link{
+    background-color: #03B396;
+}
+.first h3{
+    color: #03B396;
+}
+.second .prise, .second-link{
+    background-color: #1359FC;
+}
+.second h3{
+     color: #1359FC;
+ }
+.third .prise{
+    background-color: #53148E ;
+}
+.third-link{
+    color: #979a9b;
+    background-color: #d0d0d0;
+}
+.third h3{
+    color: #53148E;
+}
+a{
+    display: block;
+    margin: 0 40px 20px;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+}
+.text{
+    position: relative;
+    padding-left: 45px;
+    text-align: left;
+}
+.text:before, li:before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    top: -2px;
+    left: 17px;
+    border-radius: 50%;
+    background-image: url("../image/icons8-галочка-26 (1).png");
+    background-size: cover;
+    border: 2px solid;
+}
+.fr:before{
+    border-color: #03B396;
+    background-color: #03B396;
+}
+.sc:before{
+    border-color: #1359FC;
+    background-color: #1359FC;
+}
+.th:before{
+    border-color: #53148E;
+    background-color: #53148E;
+}
